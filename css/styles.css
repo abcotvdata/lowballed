@@ -193,7 +193,7 @@ body {
 .titlevid {
    width: 100%;
    position: absolute;
-   bottom: 0vh;
+   top: 0vh;
    left: 0px;
    z-index: 1;
 }
@@ -215,7 +215,7 @@ body {
    }
 
    .innerarrow {
-      width: 5%;
+      width: 50px;
       margin: auto;
    }
 
@@ -753,150 +753,162 @@ body {
 
 /*______________________________MEDIA QUERIES______________________________*/
 
+   @media only screen and (max-width: 900px) {
 
- @media only screen and (max-width: 820px) {
+      .desktop-title {
+         top: 10px;
+      }
 
-   .startscrolly {
-      height: 1100vh;
+      .mobile-bg {
+         display: block;
+      }  
+
+      .desktop-bg {
+         display: none;
+      }
+
+      .arrow {
+         top: 400px;
+      }
+
+      @keyframes bounce {
+         0% { top: 400px; }
+         50% { top: 440px; }
+         100% { top: 400px; }
+       }
 
    }
-   .scrollbox {
-      position: relative;
-   }
-   
-   .scrollboxright {
-      margin-left: 0px;
-      width: 100%;
-   }
-
-   .scrollboxleft {
-      width: 100%;
-   }
 
 
-   .scrollbox .outertext {
-      position: absolute;
-      width: 100%;
-      bottom: 0vh;
-   }
+   @media only screen and (max-width: 820px) {
 
-   .scrollbox1 .outertext {
-      bottom: 10vh;
-   }
 
-   .scrollbox .innertext {
-      top: 0vh;
+
+      .startscrolly {
+         height: 1100vh;
+
+      }
+      .scrollbox {
+         position: relative;
+      }
       
-   }
+      .scrollboxright {
+         margin-left: 0px;
+         width: 100%;
+      }
 
-   .scrollnew {
-      height: 100vh;
-   }
-
-   .scrollsame {
-      height: 80vh;
-   }
-
-   .guide-box {
-      padding-left: 10px;
-      padding-right: 10px;
-   }
+      .scrollboxleft {
+         width: 100%;
+      }
 
 
- }
+      .scrollbox .outertext {
+         position: absolute;
+         width: 100%;
+         bottom: 0vh;
+      }
 
- @media only screen and (max-width: 750px) {
+      .scrollbox1 .outertext {
+         bottom: 10vh;
+      }
 
-   .mobile-bg {
-      display: block;
-   }  
+      .scrollbox .innertext {
+         top: 0vh;
+         
+      }
 
-   .desktop-bg {
-      display: none;
-   }
+      .scrollnew {
+         height: 100vh;
+      }
 
-   .titlevid {
-      top: -200px;
-   }
+      .scrollsame {
+         height: 80vh;
+      }
 
-   .mobile-title {
-      display: block;
-   }
+      .guide-box {
+         padding-left: 10px;
+         padding-right: 10px;
+      }
 
-   .desktop-title {
-      display: none;
-   }
 
-   .innerarrow {
-      width: 10%;
    }
 
 
 
+   @media only screen and (max-width: 700px) {
 
+      .titlevid {
+         top: -350px;
+      }
 
+      .mobile-title {
+         display: block;
+      }
 
- }
+      .desktop-title {
+         display: none;
+      }
 
+      .scrollbox .innercontent {
+         top: 20vh;
+      }
 
- @media only screen and (max-width: 700px) {
+      .innercontent {
+         padding: 0px 10px;
+      }
 
-   .scrollbox .innercontent {
-      top: 20vh;
+      .photos {
+         width: 120px;
+         height: 120px;
+      }
+
+      .firstsubhead h3 {
+         font-size: 25px;
+      }
+
+      .firstsubhead h5 {
+         font-size: 16px;
+      }
+
    }
 
-   .innercontent {
-      padding: 0px 10px;
-   }
+   @media only screen and (max-width: 600px) {
 
-   .photos {
-      width: 120px;
-      height: 120px;
-   }
+      .innertext {
+         padding: 10px;
+      }
 
-   .firstsubhead h3 {
-      font-size: 25px;
-   }
+      .titlevid {
+         top: -260px;
+      }
 
-   .firstsubhead h5 {
-      font-size: 16px;
-   }
 
- }
-
-  @media only screen and (max-width: 600px) {
-
-   .innertext {
-      padding: 10px;
-   }
-
-   .titlevid {
-      top: -160px;
    }
 
 
- }
+   @media only screen and (max-width: 500px) {
 
 
- @media only screen and (max-width: 500px) {
+      .innertext {
+         /*text-align: left;*/
+         font-size: 15px;
+      }
+
+      .titlevid {
+         top: -160px;
+      }
+
+      .arrow {
+         top: 360px;
+      }
+
+      @keyframes bounce {
+         0% { top: 360px; }
+         50% { top: 400px; }
+         100% { top: 360px; }
+       }
 
 
-   .innertext {
-      /*text-align: left;*/
-      font-size: 15px;
+
    }
-
-   .arrow {
-      top: 360px;
-   }
-
-   @keyframes bounce {
-      0% { top: 360px; }
-      50% { top: 400px; }
-      100% { top: 360px; }
-    }
-
-
-
- }
 
