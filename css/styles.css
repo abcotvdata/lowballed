@@ -377,6 +377,22 @@ body {
       border: none;
    }
 
+.fullscreen {
+   font-family: "urw-din";
+   font-style: italic;
+   color: white;
+   text-align: center;
+   width: 100%;
+}  
+
+.fullscreen a{
+   color: white;
+}  
+
+.fullscreen a:visited{
+   color: white;
+} 
+
 
 .outermap {
    position: relative;
