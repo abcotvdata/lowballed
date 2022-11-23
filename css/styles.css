@@ -295,23 +295,28 @@ body {
 
 .subhead {
    font-family: "urw-din";
-   font-weight: bold;
+/*   font-weight: bold;*/
    letter-spacing: 2px;
    text-align: center;
    color: white;
    font-size: 20px;
 } 
 
-.subhead h3 {
+/*.subhead h3 {
    text-transform: uppercase;
-}
+}*/
 
 .firstsubhead h3{
    font-size: 30px;
 } 
 
+.firstsubhead h4{
+   font-size: 20px;
+} 
+
 .firstsubhead h5{
    font-size: 18px;
+   font-weight: normal;
 } 
 
 .contentbox {
@@ -326,8 +331,8 @@ body {
    max-width: 900px;
    text-align: center;
    margin: auto;
-   text-transform: uppercase;
-   font-size: 18px;
+   /*text-transform: uppercase;*/
+   font-size: 20px;
    position: relative;
    padding-bottom: 100px;
    padding-top: 50px;
@@ -795,7 +800,7 @@ body {
    }
 
    .titlevid {
-      bottom: -60px;
+      top: -200px;
    }
 
    .mobile-title {
@@ -809,6 +814,9 @@ body {
    .innerarrow {
       width: 10%;
    }
+
+
+
 
 
 
@@ -834,24 +842,45 @@ body {
       font-size: 25px;
    }
 
+   .firstsubhead h5 {
+      font-size: 16px;
+   }
+
+ }
+
+  @media only screen and (max-width: 600px) {
+
+   .innertext {
+      padding: 10px;
+   }
+
+   .titlevid {
+      top: -160px;
+   }
+
+
  }
 
 
  @media only screen and (max-width: 500px) {
-
-   .firstsubhead h3 {
-      font-size: 20px;
-   }
-
-   .firstsubhead h5 {
-      font-size: 15px;
-   }
 
 
    .innertext {
       /*text-align: left;*/
       font-size: 15px;
    }
+
+   .arrow {
+      top: 360px;
+   }
+
+   @keyframes bounce {
+      0% { top: 360px; }
+      50% { top: 400px; }
+      100% { top: 360px; }
+    }
+
+
 
  }
 
