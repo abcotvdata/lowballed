@@ -22,7 +22,7 @@ var links = [{"station":"wabc","storylink":"NONE","p":"New York"},
 {"station":"wls","storylink":"NONE","p":"Chicago"},
 {"station":"wpvi","storylink":"NONE","p":"Philadelphia"},
 {"station":"kgo","storylink":"NONE","p":"San Francisco"},
-{"station":"ktrk","storylink":"NONE","p":"Houston"},
+{"station":"ktrk","storylink":"https://abc13.com/our-america-lowballed-home-appraisals-appraisers/12516424/","p":"Houston"},
 {"station":"wtvd","storylink":"NONE","p":"Raleigh Durham"},
 {"station":"kfsn","storylink":"https://abc30.com/our-america-lowballed-home-appraisal-house-appraisals/12508505/","p":"Fresno"}]
 
