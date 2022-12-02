@@ -18,32 +18,19 @@ var ca_counties = {"type":"FeatureCollection","features":[{"type":"Feature","pro
 // Links to stories
 
 var links = [{"station":"wabc","storylink":"NONE","p":"New York"},
-{"station":"kabc","storylink":"NONE","p":"Los Angeles"},
+{"station":"kabc","storylink":"https://abc7.com/how-many-homes-are-under-appraised-in-los-angeles-appraisal-bias-real-estate-buying-a-home/12516281/","p":"Los Angeles"},
 {"station":"wls","storylink":"NONE","p":"Chicago"},
 {"station":"wpvi","storylink":"NONE","p":"Philadelphia"},
 {"station":"kgo","storylink":"NONE","p":"San Francisco"},
 {"station":"ktrk","storylink":"NONE","p":"Houston"},
 {"station":"wtvd","storylink":"NONE","p":"Raleigh Durham"},
-{"station":"kfsn","storylink":"NONE","p":"Fresno"}]
+{"station":"kfsn","storylink":"https://abc30.com/our-america-lowballed-home-appraisal-house-appraisals/12508505/","p":"Fresno"}]
 
 
 
 $(document).ready(function(){ // begin document.ready block
 
 
-	// DELETE THIS FOR FINAL VERSION
-
-	$(".submit").click(function(){
-		console.log('submit')
-		var password = $("#password").val()
-		console.log(password)
-
-		if (password == "abcotvdata") {
-		 	$(".password").hide()
-		}
-	});
-
-	// DELETE THIS FOR FINAL VERSION
 
 	//build blank map
 
