@@ -17,9 +17,9 @@ var ca_counties = {"type":"FeatureCollection","features":[{"type":"Feature","pro
 
 // Links to stories
 
-var links = [{"station":"wabc","storylink":"NONE","p":"New York"},
+var links = [{"station":"wabc","storylink":"https://abc7ny.com/our-america-lowballed-home-appraisal-racial-bias/12515469/","p":"New York"},
 {"station":"kabc","storylink":"https://abc7.com/how-many-homes-are-under-appraised-in-los-angeles-appraisal-bias-real-estate-buying-a-home/12516281/","p":"Los Angeles"},
-{"station":"wls","storylink":"NONE","p":"Chicago"},
+{"station":"wls","storylink":"https://abc7chicago.com/chicago-property-value-home-appraisals-estimator-discrimination/12520229/","p":"Chicago"},
 {"station":"wpvi","storylink":"https://6abc.com/our-america-lowballed-appraisal-underappraised/12519769/","p":"Philadelphia"},
 {"station":"kgo","storylink":"https://abc7news.com/our-america-lowballed-documentary-premiere-systemic-inequities-in-home-appraisal-racial-bias/12517228/","p":"San Francisco"},
 {"station":"ktrk","storylink":"https://abc13.com/our-america-lowballed-home-appraisals-appraisers/12516424/","p":"Houston"},
