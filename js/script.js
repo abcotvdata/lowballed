@@ -20,7 +20,7 @@ var ca_counties = {"type":"FeatureCollection","features":[{"type":"Feature","pro
 var links = [{"station":"wabc","storylink":"NONE","p":"New York"},
 {"station":"kabc","storylink":"https://abc7.com/how-many-homes-are-under-appraised-in-los-angeles-appraisal-bias-real-estate-buying-a-home/12516281/","p":"Los Angeles"},
 {"station":"wls","storylink":"NONE","p":"Chicago"},
-{"station":"wpvi","storylink":"https://6abc.com/our-america-lowballed-appraisal-underappraised/12519769/","p":"Philadelphia"},
+{"station":"wpvi","storylink":"NONE","p":"Philadelphia"},
 {"station":"kgo","storylink":"https://abc7news.com/our-america-lowballed-documentary-premiere-systemic-inequities-in-home-appraisal-racial-bias/12517228/","p":"San Francisco"},
 {"station":"ktrk","storylink":"https://abc13.com/our-america-lowballed-home-appraisals-appraisers/12516424/","p":"Houston"},
 {"station":"wtvd","storylink":"NONE","p":"Raleigh Durham"},
